@@ -1,4 +1,7 @@
 import { Component } from "react";
+import { FormStyled } from "./ContactForm.styled";
+import  {LabelStyled}  from "./LabelForm.styled";
+import  {BtnForm } from "./BtnForm.styled";
 
 class ContactForm extends Component {
 state = {
@@ -7,8 +10,8 @@ name: '',
 
     render() {
         return (
-          <form >
-            <label>
+          <FormStyled>
+            <LabelStyled>
               Name
               <input
               
@@ -20,13 +23,13 @@ name: '',
                 //title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
                 required
               />
-            </label>
+            </LabelStyled>
            
     
-            <button type="submit">
+            <BtnForm type="submit">
               Add contact
-            </button>
-          </form>
+            </BtnForm>
+          </FormStyled>
         ); 
       }
 }
