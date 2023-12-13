@@ -5,12 +5,16 @@ export const LabelStyled = styled('label')(() => {
             marginBottom: '20px',
             color: 'black',
             fontSize: '24px',
-
           
+          span: {
+            marginRight: '15px'
+          }, 
+
           input: {
-            marginLeft: '34px',
-            fontSize: '18px',
-            borderRadius: '10px',
+            
+            padding: '10px',
+            fontSize: '20px',
+            borderRadius: '20px',
             border: '1px solid #000',
           
           }
