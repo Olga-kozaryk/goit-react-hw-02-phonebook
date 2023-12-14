@@ -5,7 +5,7 @@ export const BtnForm = styled('button')(() => {
         fontSize: '18px',
         borderRadius: '10px',
         border: '1px solid #000',
-        backgroundColor: 'yellow',
+        backgroundColor: 'rgb(135, 155, 240, 1)',
         padding: '5px',
         margin: 'auto',
         cursor: 'pointer',

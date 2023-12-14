@@ -3,20 +3,15 @@ import styled from "styled-components";
 export const LabelStyled = styled('label')(() => {
     return {
             marginBottom: '20px',
-            color: 'black',
             fontSize: '24px',
-          
-          span: {
-            marginRight: '15px'
-          }, 
 
           input: {
-            
+            marginLeft:'34px',
             padding: '10px',
             fontSize: '20px',
-            borderRadius: '20px',
-            border: '1px solid #000',
-          
-          }
+            border: 'none',
+            borderBottom: '2px solid #839df3'
+          },
+
     }
 })

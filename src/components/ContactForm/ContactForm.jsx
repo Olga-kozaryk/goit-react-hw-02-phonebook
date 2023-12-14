@@ -62,6 +62,6 @@ resetForm = () => {
 
           </FormStyled>
         ); 
-      }
+          }
 }
 export default ContactForm;
